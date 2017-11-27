@@ -8,6 +8,13 @@ A Homebrew tap for my projects
 $ brew tap spencercdixon/formulae
 ```
 
+## Packages
+
+#### Exocortex
+
+[A modern git based personal wiki.](https://github.com/SpencerCDixon/exocortex)
+
 ```sh
-$ brew install exo
+$ brew install exocortex
+$ exo new my-wiki
 ```
