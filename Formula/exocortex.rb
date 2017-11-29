@@ -1,9 +1,9 @@
 class Exocortex < Formula
   desc "A modern git based personal wiki"
   homepage "https://github.com/spencercdixon/exocortex"
-  url "https://github.com/SpencerCDixon/exocortex/releases/download/v0.1.5/exocortex_0.1.5_macOS_64-bit.tar.gz"
-  version "0.1.5"
-  sha256 "513f56035a1e2db4cae805dc0c75f36c81f28632ad0f2c6c3589dec35902fc25"
+  url "https://github.com/SpencerCDixon/exocortex/releases/download/v0.1.6/exocortex_0.1.6_macOS_64-bit.tar.gz"
+  version "0.1.6"
+  sha256 "c997367c618ff23709fb88d76f77d3aee372b3f605e917a79d767ce551028a53"
 
   def install
     bin.install "exo"
@@ -24,12 +24,9 @@ class Exocortex < Formula
   <array>
     <string>#{opt_bin}/exo</string>
     <string>start</string>
-    <string>--debug</string>
   </array>
   <key>RunAtLoad</key>
   <true/>
-  <key>WorkingDirectory</key>
-  <string>#{system "echo $EXO_WIKI"}</string>
   <key>StandardErrorPath</key>
   <string>#{var}/log/exocortex-error.log</string>
   <key>StandardOutputPath</key>
