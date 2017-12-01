@@ -1,9 +1,9 @@
 class Exocortex < Formula
   desc "A modern git based personal wiki"
   homepage "https://github.com/spencercdixon/exocortex"
-  url "https://github.com/SpencerCDixon/exocortex/releases/download/v0.2.0/exocortex_0.2.0_macOS_64-bit.tar.gz"
-  version "0.2.0"
-  sha256 "5780d0cc1f6a029069cf3b9e9990f2b66d69bd845d2d9f9cbef2db5427d62502"
+  url "https://github.com/SpencerCDixon/exocortex/releases/download/v0.2.1/exocortex_0.2.1_macOS_64-bit.tar.gz"
+  version "0.2.1"
+  sha256 "e98b229dafc5cce11e5941b10d88efc838f96fbaf7d982bef19ae315b94a502a"
 
   def install
     bin.install "exo"
